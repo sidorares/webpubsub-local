@@ -1,0 +1,33 @@
+{
+  "name": "webpubsub-local",
+  "version": "1.0.0",
+  "description": "A drop in replacement for Azure webpubsub you can run locally",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidorares/webpubsub-local.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidorares/webpubsub-local/issues"
+  },
+  "homepage": "https://github.com/sidorares/webpubsub-local#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "rfb2": "^0.2.2",
+    "ssh2": "^1.11.0",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "@azure/web-pubsub": "^1.0.0",
+    "portfinder": "^1.0.32"
+  }
+}
